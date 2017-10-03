@@ -1,0 +1,35 @@
+body{
+  background-color: aqua;
+}
+
+a
+{
+  color: black;
+}
+
+a:hover
+{
+  color: red;
+}
+
+p
+{
+  color: black;
+  font-family: arial;
+  font-size: 18;
+}
+
+h2
+{
+  color: black;
+}
+
+h1
+{
+  color: black;
+}
+
+h3
+{
+  color: black;
+}

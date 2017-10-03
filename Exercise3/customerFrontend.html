@@ -1,0 +1,27 @@
+<html>
+    <head>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <title> Vivek's Ecommerce Website </title>
+      <script type="text/javascript"
+        src = "formChecker.js">
+      </script>
+    </head>
+<body>
+
+    <form action="customerBackend.php" method="post">
+        <b>Name: </b><input type="email" name="name" required><br>
+        <b>Password: </b><input type="password" name="password" required><br>
+
+        <b><h3> Select items to purchase </h3></b>
+        <b>$5.00 PeanutButter Quanitity: </b><input type="number" min = "0" name="peanutbutter"required><br>
+        <b>$10.00 Jelly Quanitity: </b><input type="number" min = "0" name="jelly"required><br>
+        <b>$1.00 Bread Quanitity: </b><input type="number" min = "0" name="bread"required><br>
+        <b><h3> Shipping type </h3></b>
+        <input type="radio" name="shipping" value="free" required> Free 7 Day<br>
+        <input type="radio" name="shipping" value="overnight"> $50.00 Over Night<br>
+        <input type="radio" name="shipping" value="threeDay"> $5.00 three day<br><br>
+        <button onclick="">Submit</button>
+        <input type="button" onclick="reset()" value="Reset form">
+    </form>
+</body>
+</html>
